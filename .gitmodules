@@ -1,0 +1,3 @@
+[submodule "CAD-scripts"]
+	path = CAD-scripts
+	url = https://github.com/spuder/CAD-scripts.git

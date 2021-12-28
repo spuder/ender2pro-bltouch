@@ -1,0 +1,21 @@
+---
+name: Changeme
+description: |
+  To change this file, modify settings.yaml and templates/README.md, then run `make all`
+  Do not edit README.md directly as it will be overwritten..
+license: 
+  type: MIT # MIT, GPL, CC-Attribution, CC-Attribution-NoDerivs, CC-Attribution-ShareAlike, CC-Attribution-NonCommercial, CC-Attribution-NC-SA
+  owner: Spencer Owen
+  year: 2020
+resources:
+  foo: https://example.com
+fusion_link: https://autodesk.example.com #comment out if no fusion link
+links:
+  Thingiverse: https://www.thingiverse.com/thing:xxxx
+  Prusa: https://foo.com
+  GrabCad: https://foo.com
+  Hackster.io: https://hackster.io/foo
+  Hackaday: https://hackaday.io/foo
+  Reddit: https://www.reddit.com/r/foo
+  Github: https://github.com/foo
+  Blog: https://foo.com

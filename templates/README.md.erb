@@ -1,0 +1,76 @@
+
+# <%= settings['name'] -%>
+
+<%= settings['description'] %>
+
+<% if settings['fusion_link'] || settings['links'] %>
+## :globe_with_meridians: Links
+
+<% if settings['fusion_link'] %>
+**Autodesk Fusion 360 file**: [<%= settings['fusion_link'] %>](<%= settings['fusion_link'] %>)
+<% end -%>
+
+<% if settings['links'] %>
+<% settings['links'].each do |name, url| -%>
+- **<%= name %>**: [<%= url %>](<%= url -%>)
+<% end -%>
+<% end -%>
+<% end -%>
+
+## :triangular_ruler: CAD files
+
+3d files are located in the [CAD](./CAD) directory.
+- `*.f3d` = Fusion 360 Files
+- `*.stl` = 3d Printable Files
+
+| Filename | STL | GIF | 
+| --- | --- | --- | 
+<% Dir["CAD/*.stl"].each do |file| -%>
+| [<%= file  %>](./<%= url_encode(file) %>) | ![](./<%= url_encode(file) %>.png) | ![](./<%= url_encode(file) %>.gif) | 
+<% end -%>
+
+## :notebook: Resources
+<% settings['resources'].each do |key, value| -%>
+- [<%= key %>](<%= value %>)
+<% end -%>
+
+## :camera: Photos
+<% Dir["photos/*"].each do |file| -%>
+![](<%= url_encode(file) %>)
+<% end -%>
+---
+---
+
+<% if settings['license']['type'].downcase == 'MIT'.downcase -%>
+## MIT License ![](https://img.shields.io/badge/license-MIT-lightgrey) 
+[(what does this mean?)](https://choosealicense.com/licenses/mit/)
+<% elsif settings['license']['type'].downcase == 'GPL'.downcase -%>
+## GPL License ![](https://img.shields.io/badge/license-GPL-blue)
+<% elsif settings['license']['type'].downcase == 'CC-Attribution'.downcase -%>
+## Creative Commons License 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<% elsif settings['license']['type'].downcase == 'CC-Attribution-NoDerivs'.downcase -%>
+## Creative Commons License-'NoDerivatives' 
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+<% elsif settings['license']['type'].downcase == 'CC-Attribution-ShareAlike'.downcase %>
+## Creative Commons License-'ShareAlike'
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<% elsif settings['license']['type'].downcase == 'CC-Attribution-NonCommercial'.downcase %>
+## Creative Commons License-'NonCommercial'
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+<% elsif settings['license']['type'].downcase == 'CC-Attribution-NC-SA'.downcase %>
+## Creative Commons License-'NonCommercial ShareAlike'
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<% else -%>
+TODO: Fix license
+<% end -%>
+
+
+---
+## Template
+The contents of this readme were automatically generated from [spuder/CAD-template](https://github.com/spuder/CAD-template). 
+[Click here](https://github.com/spuder/CAD-template/generate) to fork and use this template
+
+```
+make all
+```
