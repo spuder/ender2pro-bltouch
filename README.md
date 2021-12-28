@@ -14,6 +14,10 @@ Note: When using M3 screws, you will be tapping directly into the plastic. It wo
 Marlin firmware should automatically detect the BLTouch.
 You will then need to calibrate the Z offset. On my machine the Z offset is -2.1mm 
 
+Installing a BLTouch with this bracket will shift your X axis by 10mm. 
+Creality [has not yet released](https://github.com/Creality3DPrinting/Ender-3/issues/76) official configuration files so you can compile a new config. 
+Until they do you can modify the [reverse engineered configs from github](https://github.com/MarlinFirmware/Configurations/pull/633/files)
+
 
 
 ## :globe_with_meridians: Links
