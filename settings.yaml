@@ -25,7 +25,7 @@ resources:
   JST Connector Kit: https://www.amazon.com/dp/B06ZZ45G7G/ref=cm_sw_em_r_mt_dp_CYFAK1BVFZH8YKFFS9SW?_encoding=UTF8&psc=1
 # fusion_link: https://autodesk.example.com #comment out if no fusion link
 links:
-  # Thingiverse: https://www.thingiverse.com/thing:xxxx
+  Thingiverse: https://www.thingiverse.com/thing:5176711
   # Prusa: https://foo.com
   # GrabCad: https://foo.com
   # Hackster.io: https://hackster.io/foo

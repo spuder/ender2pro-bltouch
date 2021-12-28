@@ -20,6 +20,7 @@ You will then need to calibrate the Z offset. On my machine the Z offset is -2.1
 
 
 
+- **Thingiverse**: [https://www.thingiverse.com/thing:5176711](https://www.thingiverse.com/thing:5176711)
 - **Github**: [https://github.com/spuder/ender2pro-bltouch](https://github.com/spuder/ender2pro-bltouch)
 
 ## :triangular_ruler: CAD files
