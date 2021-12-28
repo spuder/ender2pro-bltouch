@@ -41,6 +41,7 @@ You will then need to calibrate the Z offset. On my machine the Z offset is -2.1
 ![](photos%2FIMG_0961.jpeg)
 ![](photos%2FIMG_0945.jpeg)
 ![](photos%2FIMG_0964.jpeg)
+![](photos%2FScreen%20Shot%202021-12-28%20at%2012.08.38%20AM.png)
 ![](photos%2Fcropped)
 ![](photos%2FIMG_0962.jpeg)
 ---
