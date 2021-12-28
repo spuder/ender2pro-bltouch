@@ -3,6 +3,10 @@
 BLTouch bracket for the Ender2 Pro
 
 ## Installation
+
+This should work with the M2.5 nuts/screws provided with the BLTouch _or_ you can use M3 screws (with no nuts).
+Note: When using M3 screws, you will be tapping directly into the plastic. It works well and that is how I installed mine
+
 1. Remove the Z-Sense plug from the board
 1. Wire up the BLTouch to the 5 port header on main board
   The Brown and Black wires are both ground, you can join them to make wiring simpler
@@ -11,6 +15,12 @@ Marlin firmware should automatically detect the BLTouch.
 You will then need to calibrate the Z offset. On my machine the Z offset is -2.1mm 
 
 
+
+## :globe_with_meridians: Links
+
+
+
+- **Github**: [https://github.com/spuder/ender2pro-bltouch](https://github.com/spuder/ender2pro-bltouch)
 
 ## :triangular_ruler: CAD files
 
