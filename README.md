@@ -48,13 +48,20 @@ Until they do you can modify the [reverse engineered configs from github](https:
 ![](photos%2FScreen%20Shot%202021-12-28%20at%2012.08.38%20AM.png)
 ![](photos%2Fcropped)
 ![](photos%2FIMG_0962.jpeg)
----
+
 ---
 
-## Creative Commons License 
+
+## Creative Commons License-'Attribution'
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-
+|  |  | 
+|---|---|
+| :white_check_mark: | Share / Redistribute | 
+| :x: | Sharing without ATTRIBUTION |
+| :white_check_mark: | Remix allowed | 
+| :white_check_mark: | Share Remixes | 
+| :white_check_mark: | Commercial Use | 
+| :white_check_mark: | Share remixes under new license | 
 ---
 ## Template
 The contents of this readme were automatically generated from [spuder/CAD-template](https://github.com/spuder/CAD-template). 
