@@ -26,7 +26,7 @@
 | Filename | STL | GIF | 
 | --- | --- | --- | 
 <% Dir["CAD/*.stl"].each do |file| -%>
-| [<%= file  %>](./<%= url_encode(file) %>) | ![](./<%= url_encode(file) %>.png) | ![](./<%= url_encode(file) %>.gif) | 
+| [<%= file  %>](./<%= url_encode(file) %>) | ![](./<%= url_encode(file.split('.stl')[-1]) %>.png) | ![](./<%= url_encode(file.split('.stl')[-1]) %>.gif) | 
 <% end -%>
 
 ## :notebook: Resources
