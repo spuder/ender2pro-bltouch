@@ -44,6 +44,7 @@ Until they do you can modify the [reverse engineered configs from github](https:
 
 ## :camera: Photos
 ![](photos%2FIMG_0961.jpeg)
+![](photos%2FHotend%20Assembly%20v9.png)
 ![](photos%2FIMG_0945.jpeg)
 ![](photos%2FIMG_0964.jpeg)
 ![](photos%2FScreen%20Shot%202021-12-28%20at%2012.08.38%20AM.png)
