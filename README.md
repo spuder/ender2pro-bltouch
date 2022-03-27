@@ -36,6 +36,7 @@ Until they do you can modify the [reverse engineered configs from github](https:
 | Filename | STL | GIF | 
 | --- | --- | --- | 
 | [CAD/Bracket.stl](./CAD%2FBracket.stl) | ![](./CAD%2FBracket.stl.png) | ![](./CAD%2FBracket.stl.gif) | 
+| [CAD/HotendMount.stl](./CAD%2FHotendMount.stl) | ![](./CAD%2FHotendMount.stl.png) | ![](./CAD%2FHotendMount.stl.gif) | 
 
 ## :notebook: Resources
 - [4 Strand Wire](https://www.amazon.com/dp/B08JTZCJV1/ref=cm_sw_em_r_mt_dp_DV2TDB4MEC2DQNAGB2SA?_encoding=UTF8&psc=1)
