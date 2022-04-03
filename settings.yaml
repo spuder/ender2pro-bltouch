@@ -19,6 +19,14 @@ description: |
   Creality [has not yet released](https://github.com/Creality3DPrinting/Ender-3/issues/76) official configuration files so you can compile a new config. 
   Until they do you can modify the [reverse engineered configs from github](https://github.com/MarlinFirmware/Configurations/pull/633/files)
 
+  ## Wiring
+  ```
+  - Blue -> White
+  - Black -> Black/Brown
+  - Green -> Yellow
+  - Red -> Orange
+  ```
+
 license: 
   type: CC-Attribution # MIT, GPL, CC-Attribution, CC-Attribution-NoDerivs, CC-Attribution-ShareAlike, CC-Attribution-NonCommercial, CC-Attribution-NC-SA
   owner: Spencer Owen
