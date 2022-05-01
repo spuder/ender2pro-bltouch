@@ -51,13 +51,13 @@ Until they do you can modify the [reverse engineered configs from github](https:
 - [JST Connector Kit](https://www.amazon.com/dp/B06ZZ45G7G/ref=cm_sw_em_r_mt_dp_CYFAK1BVFZH8YKFFS9SW?_encoding=UTF8&psc=1)
 
 ## :camera: Photos
-![](photos%2FIMG_2819.jpeg)
-![](photos%2FIMG_0961.jpeg)
 ![](photos%2FHotend%20Assembly%20v9.png)
+![](photos%2FIMG_0961.jpeg)
+![](photos%2FIMG_0962.jpeg)
 ![](photos%2FIMG_0964.jpeg)
+![](photos%2FIMG_2819.jpeg)
 ![](photos%2FScreen%20Shot%202021-12-28%20at%2012.08.38%20AM.png)
 ![](photos%2Fcropped)
-![](photos%2FIMG_0962.jpeg)
 
 ---
 
